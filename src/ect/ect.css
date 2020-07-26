@@ -1,0 +1,27 @@
+tr:not(.datagrid-header-row) > td[field="sellermemo"] > div:first-line {
+    color: #dd0a35;
+    font-size: 13px;
+}
+
+tr:not(.datagrid-header-row) > td[field="picksid"] > div:first-line {
+    color: #5bd1d7;
+    font-size: 13px;
+}
+
+tr:not(.datagrid-header-row) > td[field="mergeweborderid"] > div:first-line {
+    color: #5bd1d7;
+    font-size: 13px;
+}
+
+#funcDiv dl a:hover{
+    font-weight: 400;
+    color:#6b48ff;
+}
+
+#funcDiv dl a{
+    transition:all 0.2s;
+}
+
+.ect-dropdown-menu-info dd a:hover{
+    font-weight: 400;
+}
