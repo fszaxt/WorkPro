@@ -1,4 +1,4 @@
-const baseUrl = "https://fszaxt.github.io/WorkPro/dist/"
+const baseUrl = "https://fszaxt.github.io/WorkPro/dist/";
 const matchList = [
     {
         test: /wfby\.bg-online\.com\.cn/,
