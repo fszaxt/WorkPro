@@ -6,7 +6,7 @@ const matchList = [
     }
 ]
 
-let url = window.location;
+let url = window.location.href;
 let scripts = matchList.some(e => {
     return url.match(e.test);
 })
