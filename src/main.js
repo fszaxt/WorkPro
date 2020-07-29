@@ -11,7 +11,8 @@ let scripts = matchList.some(e => {
     return url.match(e.test);
 })
 scripts = scripts instanceof String ? [scripts] : scripts;
-scripts.forEach(addScriptElement)
+console.log(scripts);
+scripts.forEach(addScriptElement);
 
 function addScriptElement(script){
     let el = document.createElement("script");
